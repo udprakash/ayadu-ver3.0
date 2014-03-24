@@ -22,7 +22,7 @@ gem 'masonry-rails', '~> 0.2.0'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 
-gem 'devise'
+gem 'devise', '~> 3.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

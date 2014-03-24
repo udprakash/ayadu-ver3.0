@@ -10,5 +10,7 @@
  *
  *= require_self
  *= require 'masonry/transitions'
- *= require_tree .
- */
+ *= require 'bootstrap_and_customization.css.scss'
+ *= require 'pages.css.scss'
+ *= require 'pins.css.scss'
+  */

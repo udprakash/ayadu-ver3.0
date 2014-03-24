@@ -80,6 +80,9 @@ Ayadu::Application.configure do
   
   config.action_mailer.default_url_options = { :host => 'http://ayadu-ver20.herokuapp.com/' }
 
+#3
+  config.assets.precompile += ['active_admin.css.scss']
+
 
   #takes care of image uploads to s3
   config.paperclip_defaults = {
